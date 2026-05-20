@@ -1,0 +1,21 @@
+name: 最小テストForm
+description: YAML Issue Formsが動くか確認するための最小サンプル
+title: "[Test] "
+labels: ["test"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        これは Issue Forms が動くか確認するためのテストです。
+  - type: input
+    id: name
+    attributes:
+      label: 名前
+      placeholder: 例：田中
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: コメント
+      placeholder: 何か書く
