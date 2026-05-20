@@ -1,8 +1,11 @@
 name: MCP / SaaS連携 利用申請（YAML Forms版）
 description: AIツール × 外部接続(MCP / SaaSコネクタ)の利用申請
-title: "[MCP申請] "
+title: "MCP申請_[ツール名]"
 labels:
   - test
+assignees:
+  - TaikiYasukouchi
+  - donkomura
 body:
   - type: markdown
     attributes:
