@@ -56,9 +56,7 @@ body:
       label: 接続先サービスの既存法務相談 issue（任意）
       description: |
         接続先のサービス本体を社内で既に使っている場合、そのときの法務相談 issue があれば貼ってください。
-        例：Figma の MCP を使いたい → 過去の Figma 社内利用申請時の issue
-        AI Ops で「追加相談として進めるか / 新規起票か」を判定する素材になります。
-        分からなければ空欄でOK。
+        例：Figma の MCP を使いたい → 過去の Figma 社内利用申請時の issue URLを入力。分からなければ空欄でOKです。
       placeholder: 例：https://github.com/wantedly/corporate/issues/XXXXX
 
   - type: checkboxes
