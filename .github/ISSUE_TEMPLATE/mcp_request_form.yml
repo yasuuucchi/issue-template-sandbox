@@ -1,6 +1,6 @@
 name: MCP / SaaS連携 利用申請（YAML Forms版）
 description: AIツール × 外部接続(MCP / SaaSコネクタ)の利用申請
-title: "MCP申請_[ツール名]"
+title: "MCP申請_[サービス / MCP名]"
 labels:
   - test
 assignees:
@@ -19,19 +19,6 @@ body:
 
         💡 申請するか迷ったら、issue を作る前に **#ai_ops_squad** でお気軽に聞いてください。
 
-  - type: textarea
-    id: why
-    attributes:
-      label: Why（何のために使いたいか）
-      description: |
-        どの業務で何をしたいかを 2〜3 行で書いてください。
-        具体的な業務シーンが分かるほど、審査が早く進みます。
-      placeholder: |
-        例：採用スカウト文面の参考に、自分の過去スカウト Google Drive フォルダから
-        類似成功例を Cowork に拾わせて、新規候補者向け下書きを作りたい。
-    validations:
-      required: true
-
   - type: input
     id: target-service
     attributes:
@@ -47,6 +34,19 @@ body:
       label: 公式リンク
       description: サービス公式サイト or MCPリポジトリのURLを貼ってください
       placeholder: https://github.com/modelcontextprotocol/servers/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why（何のために使いたいか）
+      description: |
+        どの業務で何をしたいかを 2〜3 行で書いてください。
+        具体的な業務シーンが分かるほど、審査が早く進みます。
+      placeholder: |
+        例：採用スカウト文面の参考に、自分の過去スカウト Google Drive フォルダから
+        類似成功例を Cowork に拾わせて、新規候補者向け下書きを作りたい。
     validations:
       required: true
 
